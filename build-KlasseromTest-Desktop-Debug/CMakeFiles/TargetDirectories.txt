@@ -1,0 +1,7 @@
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/KlasseromTest.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/list_install_components.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/install.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/install/local.dir
+C:/Qt/Qt Projects/build-KlasseromTest-Desktop-Debug/CMakeFiles/install/strip.dir

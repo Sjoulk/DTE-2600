@@ -1,0 +1,11 @@
+# ninja log v5
+1	138	7267638692429014	CMakeFiles/KlasseromTest.dir/function_test.cpp.obj	477cb638af06137b
+12	1091	7267638701948263	CMakeFiles/KlasseromTest.dir/main.cpp.obj	41de2eb60148bf05
+22	1134	7267638702365529	CMakeFiles/KlasseromTest.dir/test_fredag12.cpp.obj	d39bfea7bea550e5
+6	816	7267639551615186	CMakeFiles/KlasseromTest.dir/main.cpp.obj	41de2eb60148bf05
+18	837	7267639551825501	CMakeFiles/KlasseromTest.dir/test_fredag12.cpp.obj	d39bfea7bea550e5
+7	123	7267639796966199	CMakeFiles/KlasseromTest.dir/main.cpp.obj	41de2eb60148bf05
+7	124	7267640042943163	CMakeFiles/KlasseromTest.dir/main.cpp.obj	41de2eb60148bf05
+19	133	7267641647833814	CMakeFiles/KlasseromTest.dir/main.cpp.obj	41de2eb60148bf05
+7	815	7267641654635896	CMakeFiles/KlasseromTest.dir/test_fredag12.cpp.obj	d39bfea7bea550e5
+826	1016	7267641656574650	KlasseromTest.exe	3ed2addcd4068026
