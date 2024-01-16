@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-0258387dfd41857bfda4.json",
+					"jsonFile" : "directory-.-Debug-6ae7e4c5264798c02826.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "KlasseromTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-KlasseromTest-Debug-b83c1091b7a777f45267.json",
+					"jsonFile" : "target-KlasseromTest-Debug-3b2c0fab9000511b706f.json",
 					"name" : "KlasseromTest",
 					"projectIndex" : 0
 				}
