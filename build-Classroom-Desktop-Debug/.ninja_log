@@ -1,0 +1,12 @@
+# ninja log v5
+4	694	7273664233718056	CMakeFiles/Classroom.dir/main.cpp.obj	a4ebd841029d6f4c
+14	1007	7273692805504366	CMakeFiles/Classroom.dir/temp_task.cpp.obj	66b686680d701d6c
+694	1244	7273664239124699	Classroom.exe	7c0b9b61c0fb3452
+21	126	7273692796676694	CMakeFiles/Classroom.dir/functiontest.cpp.obj	35fb81efe2d491a1
+7	636	7273695629164863	CMakeFiles/Classroom.dir/main.cpp.obj	a4ebd841029d6f4c
+16	908	7273695631876473	CMakeFiles/Classroom.dir/temp_task.cpp.obj	66b686680d701d6c
+909	1055	7273695633296916	Classroom.exe	69ba34d9f91c7d32
+6	892	7273700948653032	CMakeFiles/Classroom.dir/temp_task.cpp.obj	66b686680d701d6c
+892	1022	7273700949880362	Classroom.exe	69ba34d9f91c7d32
+7	957	7273712941503344	CMakeFiles/Classroom.dir/temp_task.cpp.obj	66b686680d701d6c
+968	1104	7273712942917268	Classroom.exe	69ba34d9f91c7d32
