@@ -7,7 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Classroom main.cpp
 
-    temp_task.h temp_task.cpp)
+    temp_task.h temp_task.cpp
+    vehicle.h vehicle.cpp
+    person.h person.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Classroom

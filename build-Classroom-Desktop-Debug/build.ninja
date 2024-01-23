@@ -61,6 +61,18 @@ build CMakeFiles/Classroom.dir/temp_task.cpp.obj: CXX_COMPILER__Classroom_unscan
   OBJECT_DIR = CMakeFiles\Classroom.dir
   OBJECT_FILE_DIR = CMakeFiles\Classroom.dir
 
+build CMakeFiles/Classroom.dir/vehicle.cpp.obj: CXX_COMPILER__Classroom_unscanned_Debug C$:/Qt/Qt$ Projects/Classroom/vehicle.cpp || cmake_object_order_depends_target_Classroom
+  DEP_FILE = CMakeFiles\Classroom.dir\vehicle.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Classroom.dir
+  OBJECT_FILE_DIR = CMakeFiles\Classroom.dir
+
+build CMakeFiles/Classroom.dir/person.cpp.obj: CXX_COMPILER__Classroom_unscanned_Debug C$:/Qt/Qt$ Projects/Classroom/person.cpp || cmake_object_order_depends_target_Classroom
+  DEP_FILE = CMakeFiles\Classroom.dir\person.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Classroom.dir
+  OBJECT_FILE_DIR = CMakeFiles\Classroom.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Classroom
@@ -69,7 +81,7 @@ build CMakeFiles/Classroom.dir/temp_task.cpp.obj: CXX_COMPILER__Classroom_unscan
 #############################################
 # Link the executable Classroom.exe
 
-build Classroom.exe: CXX_EXECUTABLE_LINKER__Classroom_Debug CMakeFiles/Classroom.dir/main.cpp.obj CMakeFiles/Classroom.dir/temp_task.cpp.obj
+build Classroom.exe: CXX_EXECUTABLE_LINKER__Classroom_Debug CMakeFiles/Classroom.dir/main.cpp.obj CMakeFiles/Classroom.dir/temp_task.cpp.obj CMakeFiles/Classroom.dir/vehicle.cpp.obj CMakeFiles/Classroom.dir/person.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Classroom.dir

@@ -19,3 +19,10 @@ int maxTemp(int temp1, int temp2, int temp3){
 int minTemp(int temp1, int temp2, int temp3){
     return std::min({temp1, temp2, temp3});
 }
+
+// improved function using class
+// tempen::tempen(float t1_input, float t2_input, float t3_input){
+//     tempen::t1 = t1_input;
+//     tempen::t2 = t2_input;
+//     tempen::t3 = t3_input;
+// }
