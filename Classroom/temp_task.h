@@ -10,19 +10,19 @@
 
 // Improved Function prototype: Using class
 
-// class tempen
-// {
-// public:
-//     tempen(float t1, float t2, float t3);
-//     void avgTempen();
-//     void maxTempen();
-//     void minTempen();
+class tempen
+{
+public:
+    tempen(float t1, float t2, float t3);
+    void avgTempen();
+    void maxTempen();
+    void minTempen();
 
-// private:
-//     float t1;
-//     float t2;
-//     float t3;
-// };
+private:
+    float t1;
+    float t2;
+    float t3;
+};
 
 int avgTemp(int temp1, int temp2, int temp3);
 int maxTemp(int temp1, int temp2, int temp3);

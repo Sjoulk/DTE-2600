@@ -9,7 +9,8 @@ add_executable(Classroom main.cpp
 
     temp_task.h temp_task.cpp
     vehicle.h vehicle.cpp
-    person.h person.cpp)
+    person.h person.cpp
+    temp_struct_vector.h temp_struct_vector.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Classroom

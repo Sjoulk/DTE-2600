@@ -21,3 +21,8 @@ void person::ageUp(){
     // person::age += 1;
 
 }
+
+void ageUp_printInfo(person* person1){
+    person1->ageUp();
+    person1->printInfo();
+}
