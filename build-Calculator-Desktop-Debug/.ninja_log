@@ -1,0 +1,46 @@
+# ninja log v5
+2	859	7281442556534822	Calculator_autogen/timestamp	b6c83487c6a1ca99
+2	859	7281442556534822	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+2	859	7281442556534822	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+2	859	7281442556534822	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+861	3508	7281442583996017	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cda10722cf04ceaa
+872	3573	7281442584647500	CMakeFiles/Calculator.dir/main.cpp.obj	efc1e7c3ea70adab
+866	3956	7281442588453673	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+20	649	7281442950071859	Calculator_autogen/timestamp	b6c83487c6a1ca99
+20	649	7281442950071859	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+20	649	7281442950071859	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+20	649	7281442950071859	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+650	3052	7281442974821226	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cda10722cf04ceaa
+659	3131	7281442975619725	CMakeFiles/Calculator.dir/main.cpp.obj	efc1e7c3ea70adab
+655	3479	7281442979080497	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+3479	3693	7281442981158512	Calculator.exe	885f6064550ec678
+25	712	7281458865541600	Calculator_autogen/timestamp	b6c83487c6a1ca99
+25	712	7281458865541600	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+25	712	7281458865541600	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+25	712	7281458865541600	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+713	3332	7281458892487070	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cda10722cf04ceaa
+718	3449	7281458893662353	CMakeFiles/Calculator.dir/main.cpp.obj	efc1e7c3ea70adab
+724	3795	7281458897124156	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+3796	4012	7281458899232845	Calculator.exe	885f6064550ec678
+12	703	7281463396431810	Calculator_autogen/timestamp	b6c83487c6a1ca99
+12	703	7281463396431810	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+12	703	7281463396431810	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+12	703	7281463396431810	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+703	3511	7281463425314864	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cda10722cf04ceaa
+708	3680	7281463427000120	CMakeFiles/Calculator.dir/main.cpp.obj	efc1e7c3ea70adab
+712	4016	7281463430374946	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+4016	4320	7281463433333511	Calculator.exe	885f6064550ec678
+23	213	7281465931122818	Calculator_autogen/timestamp	b6c83487c6a1ca99
+23	213	7281465931122818	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+23	213	7281465931122818	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+23	213	7281465931122818	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+229	3291	7281465961937255	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+3292	3524	7281465964191466	Calculator.exe	885f6064550ec678
+28	794	7281466865996904	Calculator_autogen/timestamp	b6c83487c6a1ca99
+28	794	7281466865996904	Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+28	794	7281466865996904	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/timestamp	b6c83487c6a1ca99
+28	794	7281466865996904	C:/Qt/Qt Projects/build-Calculator-Desktop-Debug/Calculator_autogen/mocs_compilation.cpp	b6c83487c6a1ca99
+795	3594	7281466894884288	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	cda10722cf04ceaa
+805	3687	7281466895827348	CMakeFiles/Calculator.dir/main.cpp.obj	efc1e7c3ea70adab
+800	4149	7281466900424470	CMakeFiles/Calculator.dir/calculator.cpp.obj	9184cefd6e6188ea
+4150	4497	7281466903800090	Calculator.exe	885f6064550ec678
