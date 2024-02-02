@@ -1,0 +1,23 @@
+# ninja log v5
+1	1222	7285783926088676	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+1228	1876	7285783932565836	Oblig_1_calc.exe	825c2dc4bfbe0c72
+11	589	7285802746395552	CMakeFiles/Oblig_1_calc.dir/mathops.cpp.obj	cea16318f5585eaf
+5	598	7285802746478555	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+598	745	7285802747892012	Oblig_1_calc.exe	ff7c0f9d386d232c
+12	577	7285813134475408	CMakeFiles/Oblig_1_calc.dir/mathops.cpp.obj	cea16318f5585eaf
+6	652	7285818029461308	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+653	822	7285818031103496	Oblig_1_calc.exe	ff7c0f9d386d232c
+4	626	7285819769833045	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+627	764	7285819771137362	Oblig_1_calc.exe	ff7c0f9d386d232c
+3	655	7285827297525676	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+656	796	7285827298845140	Oblig_1_calc.exe	ff7c0f9d386d232c
+5	544	7285833445021665	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+10	769	7285833447268170	CMakeFiles/Oblig_1_calc.dir/mathops.cpp.obj	cea16318f5585eaf
+770	892	7285833448436602	Oblig_1_calc.exe	ff7c0f9d386d232c
+4	616	7285843753580994	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+11	707	7285843754496815	CMakeFiles/Oblig_1_calc.dir/mathops.cpp.obj	cea16318f5585eaf
+708	835	7285843755728036	Oblig_1_calc.exe	ff7c0f9d386d232c
+3	590	7285844844537022	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+591	740	7285844845996536	Oblig_1_calc.exe	ff7c0f9d386d232c
+4	501	7285845055188219	CMakeFiles/Oblig_1_calc.dir/main.cpp.obj	e9cc930cf352da9b
+502	610	7285845056219442	Oblig_1_calc.exe	ff7c0f9d386d232c

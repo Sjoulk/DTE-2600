@@ -7,6 +7,7 @@ bool divTrigger = false;
 bool multTrigger = false;
 bool addTrigger = false;
 bool subTrigger = false;
+bool clrTrigger = false;
 
 Calculator::Calculator(QWidget *parent)
     : QMainWindow(parent)
@@ -127,4 +128,10 @@ void Calculator::ChangeNumberSign() {
         ui->Display->setText(QString::number(dblDisplayValSign));
     }
 
+}
+
+// Clear button
+void Calculator::ClearDisplay(){
+    int zero = 0;
+    ui->Display->setText(QString::number(zero));
 }

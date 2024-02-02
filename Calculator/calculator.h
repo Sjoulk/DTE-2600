@@ -25,6 +25,7 @@ private slots:
     void MathButtonPressed();
     void EqualButtonPressed();
     void ChangeNumberSign();
+    void ClearDisplay();
 
     // To be implemented:
     // memory buttons
