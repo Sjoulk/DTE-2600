@@ -20,16 +20,12 @@ public:
 private:
     Ui::Calculator *ui;
 
+    // Types of functions that the buttons should correspond to
 private slots:
-    void NumPressed();
-    void MathButtonPressed();
-    void EqualButtonPressed();
-    void ChangeNumberSign();
-    void ClearDisplay();
+    void NumPressed();          // Gets called when a button 0-9 is pressed
+    void MathButtonPressed();   // Gets called when a mathematical operator button is pressed
+    void EqualButtonPressed();  // Calculated and displays the result when the equal button is pressed
+    void ClearDisplay();        // Clears the display when the AC button is pressed
 
-    // To be implemented:
-    // memory buttons
-    // sqrt, exponent etc
-    // CLEAR button
 };
 #endif // CALCULATOR_H
