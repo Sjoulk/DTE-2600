@@ -18,7 +18,7 @@ int main() {
         cout << "2. Subtraction" << endl;
         cout << "3. Multiplication" << endl;
         cout << "4. Division" << endl;
-        //cout << "5. Square Root" << endl;
+        cout << "5. Square Root" << endl;     // have to separate out division and subtraction, or place it before
         cout << "6. Exit" << endl;
         cout << "Select an option: ";
 
@@ -33,13 +33,13 @@ int main() {
         }
 
         // Square root function placed first, as it only takes one input.
-        // if (option == 5) {
-        //     double a;
-        //     cout << "Enter a number: " << endl;
-        //     cin >> a;
-        //     cout << "Result: " << MathOps::square(a) << endl;
-
-        // }
+        if (option == 5) {
+            double a;
+            cout << "Enter a number: " << endl;
+            cin >> a;
+            cout << "Result: " << MathOps::square(a) << endl;
+            continue;
+        }
 
         // Addition and multiplication takes a vector as input.
         // If either is chosen, the user is asked for number of inputs = n.
