@@ -2,13 +2,14 @@
 #include "./ui_calculator.h"
 #include <QRegularExpression>
 
-    // Defining some variables to be used
-double calcVal = 0.0;
-bool divTrigger = false;
-bool multTrigger = false;
-bool addTrigger = false;
-bool subTrigger = false;
-bool clrTrigger = false;
+// Defining some variables to be used
+    double calcVal = 0.0;
+    bool divTrigger = false;
+    bool multTrigger = false;
+    bool addTrigger = false;
+    bool subTrigger = false;
+    bool clrTrigger = false;
+    int zero = 0;
 
 Calculator::Calculator(QWidget *parent)
     : QMainWindow(parent)
@@ -31,10 +32,11 @@ Calculator::Calculator(QWidget *parent)
     for(int i = 0; i < 10; ++i){
         QString butName = "Button_" +QString::number(i);
         numButtons[i] = Calculator::findChild<QPushButton *>(butName); // Searching for a widget by providing its name
+
         connect(numButtons[i], SIGNAL(released()), this,
-                SLOT(NumPressed())); // Calls NumPressed whenever a numeric button is pressed
+                SLOT(NumPressed())); // connects number buttons to the NumPressed() function
     }
-        // Connecting math operator buttons to the MathButtonPressed() function
+        // Connecting the math operator buttons to the MathButtonPressed() function
     connect(ui->Add, SIGNAL(released()), this,
             SLOT(MathButtonPressed()));
     connect(ui->Subtract, SIGNAL(released()), this,
@@ -61,13 +63,15 @@ Calculator::~Calculator()
 
 // Displaying the numeric value of a button when it is pressed
 void Calculator::NumPressed(){
+                                                    // button is now a QPushButton variable
     QPushButton *button = (QPushButton *)sender();  // Sender returns a pointer -> to the button that was pressed
+                                                    // which can be used for all numeric buttons, as QPushButtons
     QString butVal = button->text();                // Getting the number value of the pressed button, from the button text
-    QString displayVal = ui->Display->text();       // Displaying the number of said button
+    QString displayVal = ui->Display->text();       // Displaying the digit of said button
 
     // Checking if display value is zero and displays zero if it is
     if((displayVal.toDouble() == 0) || (displayVal.toDouble() == 0.0)){
-        ui->Display->setText(butVal);
+        ui->Display->setText(butVal);               // checking for 0 as both int and float.
 
     // If the value is not zero, the button value and display value is stored as a double
     } else{
@@ -81,39 +85,47 @@ void Calculator::NumPressed(){
 }
 // Mathematical operator functions
 void Calculator::MathButtonPressed(){
-    // Tracking which math operator button was last pressed
+
+    // Variables to track which math operator button was last pressed
     divTrigger = false;
     multTrigger = false;
     addTrigger = false;
     subTrigger = false;
 
-    // Storing the current value inside display
-    QString displayVal = ui->Display->text();
-    calcVal = displayVal.toDouble();                // Converts the display value to a double
-    QPushButton *button = (QPushButton *)sender();
-    QString butVal = button->text();
+    // Storing the current value inside the display
+    QString displayVal = ui->Display->text();       // displayVal is the text in the display
+    calcVal = displayVal.toDouble();                // Converts that value to a double
+    QPushButton *button = (QPushButton *)sender();  // Sender returns a pointer -> to the button that was pressed
+    QString butVal = button->text();                // butVal is the value of that button
 
-    // Checking which arithmetic button was pressed by comparing signs
-    // and sets boolean value to 'true' for a given trigger/button press
 
-    if(QString::compare(butVal, "/", Qt::CaseInsensitive) == 0){
+    // Appends the operator to the display, displaying the first number and the operator
+        // will still be replaced when a second number is pressed, at least for now
+    QString newDisplayVal = displayVal + " " + butVal + " ";
+
+    // Checking which arithmetic button was pressed by comparing signs (math operators)
+    // and sets boolean value to 'true' for a given trigger/button press to track
+    // which operation should be executed
+
+    if(QString::compare(butVal, "/", Qt::CaseInsensitive) == 0){            // "/" sets divTrigger = true
         divTrigger = true;
-    } else if(QString::compare(butVal, "*", Qt::CaseInsensitive) == 0){
+    } else if(QString::compare(butVal, "*", Qt::CaseInsensitive) == 0){     // "*" sets multTrigger = true
         multTrigger = true;
     } else if(QString::compare(butVal, "+", Qt::CaseInsensitive) == 0){
         addTrigger = true;
-    } else{ //(QString::compare(butVal, "-", Qt::CaseInsensitive) == 0){
+    } else{                                 // Otherwise assumes subtraction
         subTrigger = true;
     }
-    ui->Display->setText("");
+
+    ui->Display->setText(newDisplayVal);    // Displays the first number as well as operator pressed
 }
 
 // Equal button
 // perform an arithmetic operation when the 'equal' button is pressed, based on which
 // boolean trigger is set to true.
 void Calculator::EqualButtonPressed(){
-    double solution = 0.0;
-    QString displayVal = ui->Display->text();
+    double solution = 0.0;                                      // Initial value of solution = 0
+    QString displayVal = ui->Display->text();                   // displayVal = the displayed text
     double dblDisplayVal = displayVal.toDouble(); // Converting display value to double in order to perform calculations
     if(addTrigger || subTrigger || multTrigger || divTrigger){ // performs math operation based on which arithmetic
         if(addTrigger){                                        // button was previously pressed and stores it as "solution"
@@ -132,6 +144,6 @@ void Calculator::EqualButtonPressed(){
 
 // The clear button (AC): simply sets the value of the display = 0
 void Calculator::ClearDisplay(){
-    int zero = 0;
+
     ui->Display->setText(QString::number(zero));
 }

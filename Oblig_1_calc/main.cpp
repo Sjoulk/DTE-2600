@@ -3,6 +3,12 @@
 
 using namespace std;
 
+// TO DO:
+// 1. fix comma input -> String???
+// 2. sqrt må return til main()
+// 3. Lagre verdi fra siste operasjon -> flere ops samtidlig????????
+// 4. full GUI based calc istedet?????????
+
 int main() {
     while (true) {
         // Main Menu
@@ -12,7 +18,7 @@ int main() {
         cout << "2. Subtraction" << endl;
         cout << "3. Multiplication" << endl;
         cout << "4. Division" << endl;
-        cout << "5. Square Root" << endl;
+        //cout << "5. Square Root" << endl;
         cout << "6. Exit" << endl;
         cout << "Select an option: ";
 
@@ -27,13 +33,13 @@ int main() {
         }
 
         // Square root function placed first, as it only takes one input.
-        if (option == 5) {
-            double(a);
-            cout << "Enter a number: " << endl;
-            cin >> a;
-            cout << "Result: " << MathOps::square(a) << endl;
-                break; // How to not exit program?
-        }
+        // if (option == 5) {
+        //     double a;
+        //     cout << "Enter a number: " << endl;
+        //     cin >> a;
+        //     cout << "Result: " << MathOps::square(a) << endl;
+
+        // }
 
         // Addition and multiplication takes a vector as input.
         // If either is chosen, the user is asked for number of inputs = n.
@@ -45,12 +51,12 @@ int main() {
 
         // Prompts user to input numbers sequentially
             vector<double> nums(n);
-            for (int i = 0; i < n; ++i) {
+            for (int i = 0; i < n; ++i) {                   // repeatedly asks for new numbers until i = n.
                 cout << "Enter number " << (i + 1) << ": ";
                 cin >> nums[i];
             }
 
-        // Calls the "add" function if addition was chosen. Calls the "multiply" function if not.
+        // Calls the "add" function if addition was chosen, or calls the "multiply" that was chosen instead.
             if (option == 1) {
                 cout << "Result: " << MathOps::add(nums) << endl;
             } else if (option == 3) {
