@@ -1,0 +1,9 @@
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/Calculator.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/edit_cache.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/rebuild_cache.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/list_install_components.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/install.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/install/local.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/install/strip.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+C:/Qt/Qt Projects/build-Calculator-Desktop-RelWithDebInfo/CMakeFiles/Calculator_autogen.dir

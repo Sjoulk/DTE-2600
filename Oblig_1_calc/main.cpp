@@ -1,18 +1,17 @@
 #include <iostream>
 #include "mathops.h"
+#include <limits>
 
 
 using namespace std;
-
-// TO DO:
-// 3. Lagre verdi fra siste operasjon -> flere ops samtidlig????????
-
 
 int main() {
     while (true) {
         // Main Menu
         // All functions returns to main() loop after task completion.
+        cout << "-------------------------" << endl;
         cout << "Calcatron v0.1: Main Menu" << endl;
+        cout << "-------------------------" << endl;
         cout << "1. Addition" << endl;
         cout << "2. Subtraction" << endl;
         cout << "3. Multiplication" << endl;
@@ -23,9 +22,18 @@ int main() {
 
         // User input for main menu selection
         int option;                             // creates int variable 'option'
-        cin >> option;                          // value of int 'option' = user input
+        while (true){                           // Will promt user to input an integer
+            if (cin >> option) {                // if another symbol is given as input
+                break;                          // to avoid infinite loops etc
+            } else {
+                cout << "Invalid input. Try again with an integer between 0 and 6.\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            }
+        }
+        //cin >> option;                          // value of int 'option' = user input
 
-        // Prompts user to try again, and returns to main menu if an invalid input is given.
+        // Prompts user to try again, and returns to main menu if an out of bounds integer is given.
         if (option > 6 || option < 1){
             cout << "Invalid input. Try again." << endl;
             continue;
@@ -43,6 +51,7 @@ int main() {
             double a;
             cout << "Enter a number: " << endl; // User is prompted for an input
             cin >> a;                           // Saves the input as variable a
+            system("cls");                      // Clears console before displaying answer
             cout << "The square root of " << a << " is: " << MathOps::square(a) << endl;
             continue;                           // Outputs the result and returns to the main menu
         }
@@ -64,10 +73,11 @@ int main() {
 
         // Calls the "add" function if addition was chosen, calls the "multiply" function otherwise.
             if (option == 1) {
+                system("cls");
                 cout << "Result: ";
                 for (int j = 0; j < nums.size(); ++j) {     // Creates variable 'j' to count through vector elements
                                                             // and increases the value of 'j' by 1 for each pass
-                cout << " " << nums[j];                     // Outputs element 'j' of vector nums
+                    cout << " " << nums[j];                     // Outputs element 'j' of vector nums
                 if (j < nums.size() -1 ){                   // if 'j' is less than the size of nums-1:
                     cout << " +";                           // a '+' sign is added between the vector elements
                     }
@@ -76,6 +86,7 @@ int main() {
                 cout << " = " << MathOps::add(nums) << endl;// after the last vector element an equal sign is added
                                                             // followed by the result of the operation.
             } else if (option == 3) {
+                system("cls");
                 cout << "Result: ";
                 for (int j = 0; j < nums.size(); ++j) {     // Creates variable 'j' to count through vector elements
                                                             // and increases the value of 'j' by 1 for each pass
@@ -94,6 +105,7 @@ int main() {
             cin >> a;                               // Stores input in variable 'a'
             cout << "Enter the second number: ";    // Prompts user to input number 2/2
             cin >> b;                               // Stores input in variable 'b'
+            system("cls");
 
             switch (option) {                       // Depending on user choice:
             case 2:                                 // Performs and outputs the subtract operation

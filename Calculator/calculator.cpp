@@ -37,8 +37,8 @@ Calculator::Calculator(QWidget *parent)
                 SLOT(NumPressed())); // connects number buttons to the NumPressed() function
     }
         // Connecting the math operator buttons to the MathButtonPressed() function
-    connect(ui->Add, SIGNAL(released()), this,
-            SLOT(MathButtonPressed()));
+    connect(ui->Add, SIGNAL(released()), this, // this is a pointer to the current instance of the class where
+            SLOT(MathButtonPressed()));         // the connect call is made. aka the SLOT is a member of the current object.
     connect(ui->Subtract, SIGNAL(released()), this,
             SLOT(MathButtonPressed()));
     connect(ui->Multiply, SIGNAL(released()), this,
@@ -86,7 +86,7 @@ void Calculator::NumPressed(){
 // Mathematical operator functions
 void Calculator::MathButtonPressed(){
 
-    // Variables to track which math operator button was last pressed
+    // Boolean variables to track which math operator button was last pressed
     divTrigger = false;
     multTrigger = false;
     addTrigger = false;

@@ -1,0 +1,9 @@
+# ninja log v5
+15	1038	7291822261798354	CMakeFiles/Virtuell_class.dir/student.cpp.obj	52273c4d7e7a0204
+9	1041	7291822261798354	CMakeFiles/Virtuell_class.dir/person.cpp.obj	51340db9b1e0b2fe
+1	1042	7291822261828362	CMakeFiles/Virtuell_class.dir/main.cpp.obj	3a5853027989acb6
+1042	1243	7291822263789547	Virtuell_class.exe	39b388f4b230628c
+25	652	7291825032694258	CMakeFiles/Virtuell_class.dir/person.cpp.obj	51340db9b1e0b2fe
+18	655	7291825032714270	CMakeFiles/Virtuell_class.dir/student.cpp.obj	52273c4d7e7a0204
+8	658	7291825032739380	CMakeFiles/Virtuell_class.dir/main.cpp.obj	3a5853027989acb6
+658	782	7291825033930953	Virtuell_class.exe	39b388f4b230628c
