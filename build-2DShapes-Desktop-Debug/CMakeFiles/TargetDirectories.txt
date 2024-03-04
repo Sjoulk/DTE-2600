@@ -1,0 +1,7 @@
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/2DShapes.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/list_install_components.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/install.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/install/local.dir
+C:/Qt/Qt Projects/build-2DShapes-Desktop-Debug/CMakeFiles/install/strip.dir

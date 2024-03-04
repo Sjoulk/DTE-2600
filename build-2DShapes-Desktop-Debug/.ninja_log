@@ -1,0 +1,9 @@
+# ninja log v5
+1	747	7312595534153277	CMakeFiles/2DShapes.dir/main.cpp.obj	4745dd8b44432943
+10	824	7312595534936810	CMakeFiles/2DShapes.dir/shapes.cpp.obj	d9a4cae4bab030a
+824	1084	7312595537481136	2DShapes.exe	52d2e4cce7c77b15
+7	803	7312616728076150	CMakeFiles/2DShapes.dir/main.cpp.obj	4745dd8b44432943
+20	943	7312616729480838	CMakeFiles/2DShapes.dir/shapes.cpp.obj	d9a4cae4bab030a
+944	1223	7312616732213799	2DShapes.exe	52d2e4cce7c77b15
+7	541	7312617157375512	CMakeFiles/2DShapes.dir/main.cpp.obj	4745dd8b44432943
+542	665	7312617158538078	2DShapes.exe	52d2e4cce7c77b15
