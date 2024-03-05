@@ -4,7 +4,7 @@
 
 class BaseShape2D {
 public:
-    enum class Color{
+    enum class Color{                           // <--- enum class for farge, check!
         Crimson,
         Orange,
         Violet,
@@ -16,12 +16,26 @@ public:
     virtual ~BaseShape2D() = default;           // default destructor for proper deletion
     virtual double area() = 0;
     virtual void operator*(double rhs) = 0;
-    virtual double circumference() = 0;
+    virtual double circumference() = 0;         // <--- Pure virtual omkrets funksjon, check!
+    virtual void printCharacteristics() {
+        std::cout << "Color: " << getColorName(color) << std::endl;
+    }
 
 
 
 protected:
     Color color;
+
+    std::string getColorName(Color color) const {   // Function to retrieve color name
+        switch (color) {
+        case Color::Crimson: return "Crimson";
+        case Color::Orange: return "Orange";
+        case Color::Violet: return "Violet";
+        case Color::Pink: return "Pink";
+        case Color::Teal: return "Teal";
+        default: return "Unknown";
+        }
+    }
 };
 
 #endif // BASE_H
