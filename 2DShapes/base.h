@@ -11,13 +11,13 @@ public:
         Pink,
         Teal
     };
-    BaseShape2D(Color color) : color(color) {}
+    BaseShape2D(Color color) : color(color) {}  // Defines constructor that takes the argument: color
 
     virtual ~BaseShape2D() = default;           // default destructor for proper deletion
     virtual double area() = 0;
     virtual void operator*(double rhs) = 0;
     virtual double circumference() = 0;         // <--- Pure virtual omkrets funksjon, check!
-    virtual void printCharacteristics() {
+    virtual void printCharacteristics() {       // partial print function: color only
         std::cout << "Color: " << getColorName(color) << std::endl;
     }
 

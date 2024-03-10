@@ -2,7 +2,7 @@
 #define SHAPES_H
 #include "base.h"
 
-class Circle : public BaseShape2D {
+class Circle : public BaseShape2D {                 // Circle
 public:
     Circle(double radius, Color color);             // Abstract functions inherited from
     double area() override;                         // parent class, to be overwritten.
@@ -16,7 +16,7 @@ private:
     double radius;
 };
 
-class Square : public BaseShape2D {
+class Square : public BaseShape2D {                 // Square
 public:
     Square(double sideLength, Color color);
     double area() override;
@@ -29,7 +29,7 @@ private:
     double sideLength;
 };
 
-class Triangle : public BaseShape2D {
+class Triangle : public BaseShape2D {               // Right angle triangle
 public:
     Triangle(double base, double height, Color color);
     double area() override;

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+int main()                                                              // basic test of all functions
 {
     cout << "Welcome to the shape demonstration!" << endl;
     cout << "Our first contender is: Circulars" << endl;
@@ -20,7 +20,7 @@ int main()
     Square square(4, Square::Color::Crimson);
     square.printCharacteristics();
     cout << "------------------------------------" << endl;
-    square * 2;
+    square * 3.1;
     cout << "------------------------------------" << endl;
 
     cout << "Our third and final contender is: Triangleif" << endl;
