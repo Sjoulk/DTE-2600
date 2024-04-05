@@ -1,0 +1,9 @@
+Building name: A
+Total area: 55 m^2.
+Number of rooms: 3
+Cleaners required: 4
+
+Rooms in building A:
+Room 1: L: 4, W: 4
+Room 2: L: 5, W: 6
+Room 3: L: 3, W: 3

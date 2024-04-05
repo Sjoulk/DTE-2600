@@ -1,0 +1,23 @@
+# ninja log v5
+17	2245	7326165592217227	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+2246	2632	7326165596061555	RoomDimensions.exe	d19a43dcc66ab57e
+6	758	7325526026332175	CMakeFiles/RoomDimensions.dir/room.cpp.obj	423f34af1c1728e9
+13	760	7325526026353470	CMakeFiles/RoomDimensions.dir/building.cpp.obj	57b47e660cbe1f0
+15	1116	7326244054933872	CMakeFiles/RoomDimensions.dir/fileops.cpp.obj	f0a86db34bcd3138
+7	1655	7326244060320635	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+1655	1903	7326244062750978	RoomDimensions.exe	e4a46f3061104af6
+6	1008	7326256703280415	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+14	1231	7326256705496364	CMakeFiles/RoomDimensions.dir/fileops.cpp.obj	f0a86db34bcd3138
+1231	1405	7326256707173863	RoomDimensions.exe	e4a46f3061104af6
+4	973	7326272940599390	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+10	1203	7326272942856920	CMakeFiles/RoomDimensions.dir/fileops.cpp.obj	f0a86db34bcd3138
+1204	1379	7326272944587665	RoomDimensions.exe	e4a46f3061104af6
+32	674	7326285309378360	CMakeFiles/RoomDimensions.dir/building.cpp.obj	57b47e660cbe1f0
+17	1060	7326285313254219	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+1060	1318	7326285315746913	RoomDimensions.exe	e4a46f3061104af6
+19	149	7326296825806206	CMakeFiles/RoomDimensions.dir/room.cpp.obj	423f34af1c1728e9
+9	594	7326296830345211	CMakeFiles/RoomDimensions.dir/building.cpp.obj	57b47e660cbe1f0
+595	854	7326296832835367	RoomDimensions.exe	e4a46f3061104af6
+12	675	7326305838621286	CMakeFiles/RoomDimensions.dir/building.cpp.obj	57b47e660cbe1f0
+4	985	7326305841700463	CMakeFiles/RoomDimensions.dir/main.cpp.obj	c7eb7ff8da9a0104
+985	1241	7326305844208508	RoomDimensions.exe	e4a46f3061104af6

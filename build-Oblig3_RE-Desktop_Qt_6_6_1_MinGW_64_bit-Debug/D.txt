@@ -1,0 +1,7 @@
+Building name: D
+Total area: 21 m^2.
+Number of rooms: 1
+Cleaners required: 2
+
+Rooms in building D:
+Room 1: L: 3, W: 7
